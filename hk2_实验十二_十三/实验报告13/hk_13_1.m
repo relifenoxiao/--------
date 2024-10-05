@@ -42,7 +42,7 @@ t_fit = linspace(min(xdata), max(xdata), 100);
 % todo
 Uc_fit = fun(x, t_fit);
 
-plot(t_fit, Uc_fit, ' - ', t, Uc, 'o');
+plot(t_fit, Uc_fit, ' - ', xdata, ydata, 'o');
 xlabel('时间 (s)');
 ylabel('电压 (V)');
 title('电容电压的充电过程');
